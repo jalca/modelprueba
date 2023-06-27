@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="pe.edu.lamolina_model_jar_0.11.48PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>pe.edu.lamolina.model.academico.BecaEstudio</class>
+    <class>pe.edu.lamolina.model.academico.CuotasGrupoHoras</class>
+    <class>pe.edu.lamolina.model.academico.TopeMatricula</class>
+    <class>pe.edu.lamolina.model.academico.CursoCicloAcademico</class>
+    <class>pe.edu.lamolina.model.academico.CambioAulaGrupo</class>
+    <class>pe.edu.lamolina.model.rolexamen.SeccionCursoRegular</class>
+    <class>pe.edu.lamolina.model.rolexamen.GrupoRegularExamen</class>
+    <class>pe.edu.lamolina.model.rolexamen.SeccionGrupoRegular</class>
+    <class>pe.edu.lamolina.model.rolexamen.AlumnoGrupoRegular</class>
+    <class>pe.edu.lamolina.model.rolexamen.LetraGrupoRegular</class>
+    <class>pe.edu.lamolina.model.rolexamen.AlumnoGrupoEspecial</class>
+    <class>pe.edu.lamolina.model.rolexamen.SeccionGrupoEspecial</class>
+    <class>pe.edu.lamolina.model.rolexamen.SeccionExcluido</class>
+    <class>pe.edu.lamolina.model.rolexamen.DocenteCursoMasivo</class>
+    <class>pe.edu.lamolina.model.croacia.optativo.ProCursosOptMy2</class>
+    <class>pe.edu.lamolina.model.croacia.optativo.ProCursosOptMy</class>
+    <class>pe.edu.lamolina.model.croacia.optativo.ProCursosOpt</class>
+    <class>pe.edu.lamolina.model.optativo.AlumnoEvaluacionOptativo</class>
+    <class>pe.edu.lamolina.model.optativo.CalificacionOptativo</class>
+    <class>pe.edu.lamolina.model.optativo.EvaluacionOptativo</class>
+    <class>pe.edu.lamolina.model.croacia.oficina.CursosCicloOfiMy</class>
+    <class>pe.edu.lamolina.model.croacia.oficina.AulaOfiMy</class>
+    <class>pe.edu.lamolina.model.optativo.EvaluacionCalificacionOptativo</class>
+    <class>pe.edu.lamolina.model.croacia.oficina.OfiCiclosMy</class>
+    <class>pe.edu.lamolina.model.croacia.ept.TransaccBancoMy</class>
+    <class>pe.edu.lamolina.model.croacia.ept.TransaccEscuelaMy</class>
+    <class>pe.edu.lamolina.model.croacia.ept.TransaccFraccionesMy</class>
+    <class>pe.edu.lamolina.model.croacia.auxiliar.YearsMigracionLite</class>
+    <class>pe.edu.lamolina.model.croacia.oficina.CursosMy</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/lamolina?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="mysql"/>
+    </properties>
+  </persistence-unit>
+</persistence>
